@@ -1,4 +1,4 @@
 A <- rbind(c(-2,3),c(-1,0))
 B <- rbind(c(4,3),c(2,-1))
 C <- rbind(c(-1,2),c(3,4))
-write(A%*%B-A%*%C,stdout())
+print(A%*%B-A%*%C)
